@@ -1,5 +1,7 @@
 # spring-boot-docker-spotify
-Packaging a Spring Boot Application with the Docker Maven Plugin by Spotify
+Packaging a Spring Boot Application with the Docker Maven Plugin by Spotify.
+
+This repository is accompanied by a blog post on http://www.marcolenzo.eu/2016/04/10/package-a-spring-boot-application-into-a-docker-container/
 
 To build the docker image and push it to registry: `mvn clean package -DpushImage`
 
